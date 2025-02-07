@@ -21,13 +21,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="text-[var(--primary-text)]"
       >
         <header>
-          <div className="bg-slate-800 w-full h-[80px] flex justify-center place-items-center">
-            <h1 className="text-cyan-500 font-bold mr-10">
-              This is the header layout
-            </h1>
+          <div className="">
             <NavBar />
           </div>
         </header>
