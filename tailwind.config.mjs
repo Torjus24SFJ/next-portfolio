@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      font: {
+        fontFamily: ['Playfair Display', 'serif'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
