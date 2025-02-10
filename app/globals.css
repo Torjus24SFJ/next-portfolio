@@ -28,10 +28,10 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
 }
+
 .border_text {
   color: var(--background);
   -webkit-text-stroke: 1px var(--primary-text);
@@ -46,6 +46,22 @@ body {
   content: attr(data-text); 
   position: absolute;
   -webkit-text-fill-color: var(--primary-text);
+}
+
+.scroll-container {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  height: 100vh;
+  max-height: 100vh;
+  scroll-snap-align: start;
+  color: var(--foreground);
+  background: var(--background);
 }
 
 

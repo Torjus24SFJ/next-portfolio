@@ -29,4 +29,12 @@ then use `no_gradient` class and data-text=`Third Heading` to remove gradient te
 </div>
 
 
+*** This is the code i used for gradient, setting it here in case i need it later
+```html
+<div className={`flex flex-col items-center font-bold bg-gradient-to-b from-[#e9dfce] to-[#caa35f] bg-clip-text text-transparent ${playfair_display.className}`}>
+        <div className="capitalize text-5xl mt-20 ">
+        <h2>projects</h2>
+        </div>
+      </div> 
+```
 
