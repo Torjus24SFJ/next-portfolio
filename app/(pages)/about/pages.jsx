@@ -10,6 +10,16 @@ export default function About() {
         sint officiis rem, dolorem commodi veniam quam reprehenderit quisquam
         iste?
       </p>
+      {/* Image boxes */}
+      {/* <div className="mt-20">
+        <div className="flex justify-end mb-10">
+          <div className="bg-[#e9dfce] w-[300px] h-[200px] rounded-xl"></div>
+        </div>
+
+        <div className="flex justify-start">
+          <div className="bg-[#e9dfce] w-[300px] h-[200px] rounded-xl"></div>
+        </div>
+      </div> */}
     </>
   );
 }

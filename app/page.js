@@ -6,12 +6,9 @@ import { playfair_display } from "./layout";
 export default function Home() {
   return (
     <>
-      {/* <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet"
-      ></link> */}
-
-      <section className={`flex flex-col items-center ${playfair_display.className}`}>
+      <section
+        className={`flex flex-col items-center ${playfair_display.className}`}
+      >
         <div className="text-center">
           <h3 className="text-sm custom_text_gradient">Front end developer</h3>
           <h1 className="capitalize text-8xl font-bold text-[var(--header-text)]">
@@ -24,16 +21,13 @@ export default function Home() {
           <h3 className="capitalize text-5xl font-bold">for your business</h3>
         </div>
       </section>
-      {/* Image boxes */}
-      <div className="mt-20">
-        <div className="flex justify-end mb-10">
-          <div className="bg-[#e9dfce] w-[300px] h-[200px] rounded-xl"></div>
-        </div>
-
-        <div className="flex justify-start">
-          <div className="bg-[#e9dfce] w-[300px] h-[200px] rounded-xl"></div>
+      <div className={`flex flex-col items-center custom_text_gradient ${playfair_display.className}`}>
+        <div className="capitalize text-5xl mt-20">
+        <h2>projects</h2>
+        <h2>experience</h2>
         </div>
       </div>
+      
     </>
   );
 }

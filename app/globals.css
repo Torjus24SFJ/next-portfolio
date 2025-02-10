@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
-
 
 @layer utilities {
   .text-outline {
@@ -34,7 +32,6 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .border_text {
   color: var(--background);
   -webkit-text-stroke: 1px var(--primary-text);
