@@ -38,18 +38,6 @@ body {
   font-style:italic;
 }
 
-/* .custom_text_gradient {
-  background: linear-gradient(#e9dfce, #caa35f);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.custom_text_gradient_radial {
-  background: radial-gradient(#e9dfce, #caa35f);
-  background-clip: text;  /* Do not need webkit for background-clip */
-  /* -webkit-text-fill-color: transparent; */
-/* }  */
-
 .no_gradient {
   position: relative;
 }
