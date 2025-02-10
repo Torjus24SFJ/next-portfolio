@@ -21,9 +21,13 @@ export default function Home() {
           <h3 className="capitalize text-5xl font-bold">for your business</h3>
         </div>
       </section>
-      <div className={`flex flex-col items-center custom_text_gradient ${playfair_display.className}`}>
+      <div className={`flex flex-col items-center custom_text_gradient font-bold ${playfair_display.className}`}>
         <div className="capitalize text-5xl mt-20">
         <h2>projects</h2>
+        <h2>experience</h2>
+        <h2>experience</h2>
+        <h2>experience</h2>
+        <h2 className="no_gradient" data-text="experience">experience</h2>
         <h2>experience</h2>
         </div>
       </div>

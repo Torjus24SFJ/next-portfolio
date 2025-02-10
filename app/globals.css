@@ -50,5 +50,15 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.no_gradient {
+  position: relative;
+}
+
+.no_gradient::before {
+  content: attr(data-text); 
+  position: absolute;
+  -webkit-text-fill-color: var(--primary-text);
+}
+
 
 
