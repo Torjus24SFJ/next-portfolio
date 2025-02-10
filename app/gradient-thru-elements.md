@@ -1,12 +1,12 @@
 # Applying a Continuous Gradient to Multiple Text Elements in Tailwind CSS
 
 ## Overview
-By default, Tailwind applies a gradient **individually** to each text element. To create a **single, continuous** gradient across multiple stacked elements, apply the gradient to a **parent container** instead.
+By default, Tailwind applies a gradient **individually** to each text element. To create a **single, continuous** gradient across multiple stacked elements, apply the gradient to a **parent container** instead. Also add some css to let an element in the middle of the gradient not be effected.
 
 ## Solution
 
 Use `bg-gradient-to-b` on the parent container and `bg-clip-text text-transparent` on the text.
-then use `no_gradient` class and data-text=`Third Heading` to remove gradient from one element with this css:
+then use `no_gradient` class and data-text=`Third Heading` to remove gradient text and insert a dublicate text for one element with this css:
 ```css
 .no_gradient {
   position: relative;
